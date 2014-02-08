@@ -1,4 +1,4 @@
-### Presentations with HTML5 & JavaScript (Node.js & Reveal.js)
+### Presentations with Node.js & Reveal.js
 
 Thanks to https://github.com/hakimel/reveal.js/ & https://github.com/johnpolacek/controldeck.js/
 
