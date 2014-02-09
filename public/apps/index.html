@@ -118,27 +118,24 @@
 					</section>
 					<section>
 						<p>Settings</p>
+						<img src="apps/img/mail-settings.png" width="100%" class="noborder"/>
 					</section>
 					<section>
-						<p>Categories</p>
-					</section>
-					<section>
-						<p>Labels</p>
-					</section>
-					<section>
-						<p>Filters</p>
-					</section>
-					<section>
-						<p>Chat</p>
+						<p>Categories, Stars, Labels &amp; Filters</p>
+						<img src="apps/img/mail-labels.png" width="100%" class="noborder"/>
 					</section>
 					<section>
 						<p>Autoresponders</p>
 					</section>
 					<section>
-						<p>Groups</p>
+						<p>Contacts &amp; Groups</p>
 					</section>
+					<section>
+						<h4>Gmail Suppport</h4>
+						<p><a href="https://support.google.com/mail/">https://support.google.com/mail/</a></p>
+					</section>	
 					<section data-transition="zoom">
-						<p>ProTip: Meaningful Subject Lines to make archiving and searching easy for others. </p>
+						<p>ProTip: Meaningful subject sines to make archiving and searching easy for others. </p>
 					</section>
 				</section>
 				
@@ -152,9 +149,11 @@
 					</section>
 					<section>
 						<p>Settings</p>
+						<img src="apps/img/cal-full.png" class="noborder"/>
 					</section>
 					<section>
 						<p>Events</p>
+						<img src="apps/img/cal-event.png" class="noborder"/>
 					</section>
 					<section>
 						<p>Invites</p>
@@ -170,6 +169,7 @@
 					</section>
 					<section data-transition="zoom">
 						<p>ProTip: Don't Share your private events</p>
+						<p>Case: <a href="http://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html" target="_blank">FERPA</a> - No Student Names</p>
 					</section>
 				</section>
 				
@@ -195,9 +195,8 @@
 					</section>
 					<section>
 						<p>Sharing</p>
-					</section>
-					<section>
-						<p>Security</p>
+						<img src="apps/img/drive-share.gif" class="noborder animated-gif"/>
+						<p><small>Take precaution when sharing folders</small></p>
 					</section>
 					<section>
 						<p>Creating</p>
@@ -216,12 +215,15 @@
 						<p>Google Drive for Desktop</p>
 					</section>
 					<section data-transition="zoom">
-						<p>ProTip: Use Dates in Filenames</p>
+						<p>ProTip: Use meaningful titles and dates in file names.</p>
+						<br />
+						<p>Case: Grocery list</p>
 					</section>
 				</section>
 				
 				<section>
 					<section>
+						<div id="heart">&nbsp;</div>
 						<h2>Thank You</h2>
 						<small>
 							<p>the presentation is online @<br /><a href="http://davidawindham.com/gwd/apps/">http://davidawindham.com/gwd/apps/</a></p>
@@ -234,22 +236,25 @@
 					<section data-background="apps/img/pattern_154.gif" data-background-repeat="repeat" data-background-size="56px">
 						<div class="bg-block">
 						<br />
-						<h3>Bibliography</h3>
+						<h3><span class="highlight">Bibliography</span></h3>
 						<small>
 						<p><a href="http://learn.googleapps.com/">http://learn.googleapps.com/</a></p>
 						<p><a href="https://support.google.com/">https://support.google.com/</a></p>
 						<p><a href="http://www.google.com/intl/ALL/insidesearch/tipstricks/all.html">http://google.com/search/tips</a></p>
+						<p><a href="https://support.google.com/mail/">https://support.google.com/mail/</a></p>
+						<p><a href="https://support.google.com/calendar">https://support.google.com/calendar/</a></p>
+						<p><a href="https://support.google.com/drive/">https://support.google.com/drive/</a></p>
 						</small>
-						<br /><br /><br /><br /><br /><br />
+						<br /><br /><br />
 							<p class="fragment roll-in"><small>
 							<span class="fragment highlight-red">Don't </span>
 							<span class="fragment highlight-green">Be </span>
 							<span class="fragment highlight-blue">Evil </span>
 							<span class="fragment hightlight-blue"> - <a href="http://en.wikipedia.org/wiki/Don't_be_evil">http://en.wikipedia.org/wiki/Don't_be_evil</a></span>
-						</small></p>
-							<p><small><a href="http://davidawindham.com">David A. Windham</a> / <a href="http://twitter.com/windhamd_gwd">@windhamdavid</a></small></p>
+							</small></p>
+							<p class="footnotes"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.<br />
+							by <a xmlns:cc="http://creativecommons.org/ns#" href="http://davidawindham.com/gwd" property="cc:attributionName" rel="cc:attributionURL">David A. Windham</a> / <a href="http://twitter.com/windhamd_gwd">@windhamdavid</a></p>
 							<p class="footnotes">David A. Windham | Data Manager ISC | gwd50.org | 864-941-5485</p>
-							<br />
 						</div>
 					</section>
 				</section>
@@ -258,7 +263,6 @@
 		<script src="apps/js/head.min.js"></script>
 		<script src="apps/js/reveal.min.js"></script>
 		<script>
-			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				controls: false,
 				progress: true,
@@ -269,8 +273,6 @@
 				transition: Reveal.getQueryHash().transition || 'default', // cube/page/concave/zoom/linear/fade/none
 				dependencies: [
 					{ src: 'apps/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'apps/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'apps/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'apps/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'apps/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
 					{ src: 'apps/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
