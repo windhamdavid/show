@@ -50,37 +50,7 @@ body {
   text-transform: uppercase;
   text-shadow: none; }
 
-.reveal h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
-  
-.reveal h1.light, 
-.reveal h2.light, 
-.reveal h3.light, 
-.reveal h4.light {
- 	color: #e1e1e1;
- }
-.reveal p.light {
- 	color: #e1e1e1;
-}
-.bg-block {
-	background: #cecece;
-	padding: 20px;
-	opacity:0.8;
-	filter:alpha(opacity=80); /* For IE8 and earlier */
-}
-.bg-block h4 {
-	padding: 30px;
-}
-.reveal .theend {
-	background: #000;
-}
 
-.reveal span.highlight {
-	color:#cecece;
-	text-shadow: 1px 1px 1px #000;
-	/*text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
-	text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;*/
-}
 
 /*********************************************
  * LINKS
@@ -95,13 +65,13 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #74a7cb;
+  color: #0865A6;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #264c66; }
+  background: #0865A6; }
 
 /*********************************************
  * IMAGES
@@ -176,3 +146,189 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #3b759e; }
+
+
+
+/*********************************************
+* Custom - windhamdavid
+*********************************************/
+
+  .reveal h1 {
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+  
+  .reveal h1.light, 
+  .reveal h2.light, 
+  .reveal h3.light, 
+  .reveal h4.light {
+   	color: #e1e1e1;
+   }
+  .reveal p.light {
+   	color: #e1e1e1;
+  }
+  .bg-block {
+  	background: #fff;
+  	padding: 20px;
+  	opacity:0.8;
+  	filter:alpha(opacity=80); /* For IE8 and earlier */
+  }
+  .bg-block h4 {
+  	padding: 30px;
+  }
+  .reveal .theend {
+  	background: #000;
+  }
+
+  .reveal span.highlight {
+  	color:#cecece;
+  	text-shadow: 1px 1px 1px #000;
+  	/*text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+  	text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;*/
+  }
+  .reveal p.footnotes {
+  	font-size:14px;
+	padding-bottom:10px;
+  }
+  .reveal a.light {
+	  color:#FF70F4;
+  }
+
+  @-webkit-keyframes pulse { 
+  	0% {color: #FF70F4;} 
+  	25% {color: #5974F7;} 
+  	50% {color: #63DAFF ;} 
+  	75% {color: #8FF763;} 
+  	100% {color: #F79A59;} 
+  }		 
+.reveal h1.colors {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 10s infinite alternate; }
+}
+  @-webkit-keyframes pulse { 
+  	0% {color: #FF70F4;} 
+  	25% {color: #5974F7;} 
+  	50% {color: #63DAFF ;} 
+  	75% {color: #8FF763;} 
+  	100% {color: #F79A59;} 
+  }	
+.reveal h1.colors span.g {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 5s infinite alternate; }
+}
+  @-webkit-keyframes pulse { 
+  	0% {color: #FF70F4;} 
+  	25% {color: #5974F7;} 
+  	50% {color: #63DAFF ;} 
+  	75% {color: #8FF763;} 
+  	100% {color: #F79A59;} 
+  }	
+.reveal h1.colors span.g2 {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 6s infinite alternate; }
+
+}
+@-webkit-keyframes pulse { 
+	0% {color: #FF70F4;} 
+	25% {color: #5974F7;} 
+	50% {color: #63DAFF ;} 
+	75% {color: #8FF763;} 
+	100% {color: #F79A59;} 
+}	
+.reveal h1.colors span.o {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 7s infinite alternate; }
+}
+@-webkit-keyframes pulse { 
+	0% {color: #FF70F4;} 
+	25% {color: #5974F7;} 
+	50% {color: #63DAFF ;} 
+	75% {color: #8FF763;} 
+	100% {color: #F79A59;} 
+}	
+.reveal h1.colors span.o2 {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 8s infinite alternate; }
+}
+@-webkit-keyframes pulse { 
+	0% {color: #FF70F4;} 
+	25% {color: #5974F7;} 
+	50% {color: #63DAFF ;} 
+	75% {color: #8FF763;} 
+	100% {color: #F79A59;} 
+}	
+.reveal h1.colors span.l {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 9s infinite alternate; }
+}
+@-webkit-keyframes pulse { 
+	0% {color: #FF70F4;} 
+	25% {color: #5974F7;} 
+	50% {color: #63DAFF ;} 
+	75% {color: #8FF763;} 
+	100% {color: #F79A59;} 
+}	
+.reveal h1.colors span.e {
+	-webkit-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	-moz-text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	text-shadow: 0px 0px 17px rgba(255, 255, 190, .75);
+	color: #45CEEF; -webkit-animation: pulse 11s infinite alternate; }
+}
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+#heart:before,
+#heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+#heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+/* color key 
+  dark - 008F0B - GR | A68B08 - YL | 9C2500 - RD | 70089C - PP | 0865A6 - BL
+  light - 
+  inverted - FF70F4 | 5974F7 | 63DAFF | 8FF763 | F79A59
+ 	/*
+  
