@@ -1,13 +1,21 @@
-### Presentations with Node.js & Reveal.js
+### Presentations with node.js & reveal.js
 
-Thanks to https://github.com/hakimel/reveal.js/ & https://github.com/johnpolacek/controldeck.js/
+Just a place to keep some presentations. 
+
+Thanks:
+Hakim El Hattab - https://github.com/hakimel/reveal.js/ 
+John Polocek - https://github.com/johnpolacek/controldeck.js/
+
+Powered by:
+node.js - https://github.com/joyent/node
+socket.io - https://github.com/learnboost/socket.io
+ 
 
 ### Run
 
-$ npm install
+Install node.js 
+
+$ npm install { node-static & socket.io }
 $ node app
 
-[http://localhost:8080](http://localhost:8080)
-
-<script src="/socket.io/socket.io.js"></script>
-<script src="/controldeck-slides.js"></script>
+Available at [http://localhost:8080](http://localhost:8080)
