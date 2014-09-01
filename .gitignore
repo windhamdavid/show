@@ -3,3 +3,5 @@ npm-debug.log
 .DS_Store
 public/apps/favicon.ico
 public/apps/img/
+public/apps2/img/
+public/apps2/favicon.ico
