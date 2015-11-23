@@ -9,7 +9,7 @@ var fileServer = new static.Server('./public');
 var server = http.createServer(function (req, res) {
 
 	var pathname = url.parse(req.url).pathname;
-	console.log('pathname: '+pathname);
+	//console.log('pathname: '+pathname);
 
 	req.addListener('end', function () {
 		fileServer.serve(req, res);
