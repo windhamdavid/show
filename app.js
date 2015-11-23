@@ -15,8 +15,8 @@ var server = http.createServer(function (req, res) {
 		fileServer.serve(req, res);
 	}).resume();
 
-}).listen(process.env.PORT || 8080, function() {
-    console.log('Listening at: http://localhost:' + (process.env.PORT || 8080));
+}).listen(process.env.PORT || 8888, function() {
+    console.log('Listening at: http://localhost:' + (process.env.PORT || 8888));
 });
 
 
