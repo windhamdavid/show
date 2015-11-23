@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="robots" content="noindex,nofollow">
+		<title>Node.js | Presentations | David A. Windham</title>
+		<meta name="description" content="HTML Presentation">
+		<meta name="author" content="David A. Windham">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="../css/reveal.min.css">
+		<link rel="stylesheet" href="../css/daw.css" id="theme">
+		<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+					<section data-background="#ffffff">
+					<div id="logo">
+					<h3>David A. Windham</h3>
+					</div>	
+					<p><small>This is just the place I keep presentations.</small></p>					
+					<p class="footnotes"><a href="https://davidawindham.com">David A. Windham</a> / <a href="http://twitter.com/windhamd">@windhamdavid</a></p>
+					<br />
+					<p class="footnotes">keys ( arrows | n:next | p:previous | esc:all )</p>
+					</section>		
+				</section>
+				<section>
+					<h4><span class="raised">Credits</span></h4>
+
+						<p class="footnotes">Made with: HTML, CSS, JavaScript, Ubuntu, Nginx, Node.js,<br /> TextMate, LiceCap, Illustrator/Photoshop, Apple OSX.<br />
+						Hakim El Hattab &amp; John Polocek who wrote 95% of the Javascript.<br />
+						Open Sans &amp; Quicksand by Steve Matteson &amp; Andres Paglinawan.</p>
+						</small>
+						<p class="footnotes"><a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US"><img alt="Creative Commons License" style="margin:0; border-width:0" src="http://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/deed.en_US">Creative Commons Attribution 4.0 International License</a>.<br />
+						by <a xmlns:cc="http://creativecommons.org/ns#" href="https://davidawindham.com/" property="cc:attributionName" rel="cc:attributionURL">David A. Windham</a> / <a href="http://twitter.com/windhamd_gwd">@windhamdavid</a><br /><br /></p>
+				</section>
+			</div>
+		</div>
+		<script src="../js/head.min.js"></script>
+		<script src="../js/reveal.min.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				rollingLinks: true,
+				theme: Reveal.getQueryHash().theme,
+				transition: Reveal.getQueryHash().transition || 'default', //cube/page/concave/zoom/linear/fade/none
+				dependencies: [
+					{ src: '../js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '../js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '../js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: '../js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/controldeck-slides.js"></script>
+		<script>
+		  var _paq = _paq || [];
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//davidawindham.com/wik/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', 1]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<noscript><p><img src="//davidawindham.com/wik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+	</body>
+</html>
