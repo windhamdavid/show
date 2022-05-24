@@ -28,5 +28,5 @@ Slide controls available at /control.html
 
 ---
 ### Notes:
-2016 - Published while I was serving on Clemson technology advisory committee and used to train district staff at Greenwood School district 50.
-2022 - Migrated it a new server and domain. 
+- 2016 - Published ( while I was serving on Clemson technology advisory committee )
+- 2022 - Migrated it a new server and domain. 
