@@ -1,7 +1,9 @@
 /node_modules/
 npm-debug.log
 .DS_Store
+public/apps/index.html
 public/apps/favicon.ico
 public/apps/img/
-public/apps2/img/
+public/apps2/index.html
 public/apps2/favicon.ico
+public/apps2/img/
